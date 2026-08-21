@@ -18,19 +18,15 @@ title: Falkrian
 tagline: Taking games apart and writing down what I find.
 description: Notes from poking around in game binaries, proprietary file formats, archive encryption, and whatever else catches my eye. Sometimes it turns into a tool.
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://blog.falkrian.com"
 
 github:
-  username: Falkrian # change to your GitHub username
+  username: Falkrian
 
 twitter:
-  username: FalkrianRE # change to your Twitter username
+  username: FalkrianRE
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Falkrian
   email: github@falkrian # change to your email address
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
@@ -44,12 +40,12 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  google:
+  bing:
+  alexa:
+  yandex:
+  baidu:
+  facebook:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
@@ -116,26 +112,25 @@ actions:
     static_url: false # [ true | false ]
 
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
-  provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  provider: giscus
+
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname:
+
   utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+    repo:
+    issue_term:
+
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    repo: Falkrian/falkrian.github.io
+    repo_id: R_kgDOT8vqew
+    category: Blog Comments
+    category_id: DIC_kwDOT8vqe84DD2kY
+    mapping: pathname
+    strict: 1
+    input_position: bottom
+    lang: en
+    reactions_enabled: 1
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
